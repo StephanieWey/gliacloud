@@ -22,7 +22,7 @@ for i in urls:
 
 for i in range(3):
     max_num = max(dic,key=dic.get)
-    print max_num,dic[max_num]
+    print (max_num,dic[max_num])
     del dic[max_num]
 
 
